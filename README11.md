@@ -4,6 +4,5 @@ $monkey
 #set($sc = $e.getClass().forName("java.util.Scanner"))
 #set($constructor = $sc.getDeclaredConstructor($e.getClass().forName("java.io.FileWriter")))
 $monkey
-$constructor
 "bbb"
 

