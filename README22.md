@@ -2,13 +2,13 @@
 $monkey
 #set ($e="exp")
 #set ($a=$e.getClass().forName("java.io.FileWriter"))
-#set ($b = $a.FileWriter("./uuuu"))
-#set ($c = $b.write("zzz"))
+#set ($b=$a.FileWriter("./uuuu"))
+#set ($c=$b.write("zzz"))
 #set ($d = $b.flush())
-#set ($e = $b.close())
+#set ($f = $b.close())
 $a
 $b
 $c
 $d
-$e
+$f
 $monkey
