@@ -2,7 +2,7 @@
 $monkey
 #set ($e="exp")
 #set ($a=$e.getClass().forName("java.io.FileWriter"))
-#set ($a2 = $e.getClass().forName("java.io.File"))
+#set ($ab=$e.getClass().forName("java.io.File"))
 $a
-$a2
+$ab
 $monkey
