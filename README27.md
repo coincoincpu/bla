@@ -3,6 +3,8 @@ $monkey
 #set ($e="exp")
 #set ($a=$e.getClass().forName("java.io.FileWriter"))
 #set ($ab=$e.getClass().forName("java.io.File"))
+#set ($b=$a.FileWrite($ab))
 $a
 $ab
+$b
 $monkey
